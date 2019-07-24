@@ -2,7 +2,7 @@
 # Version 2.0.17
 # Solutions by T Cavanagh
 
-#2.12 Exercises
+#2.2 Exercise
 width = 17
 height = 12.0
 delimiter = '.'
@@ -26,3 +26,13 @@ print(type(q4))
 q5 = delimiter * 5
 print(q5)
 print(type(q5))
+
+
+#2.3 Exercise
+#Q1
+pi = 3.1415926535897931
+r = 5.0
+vol = 4.0 / 3.0 * pi * r ** 3
+print(vol)
+
+#Q2
