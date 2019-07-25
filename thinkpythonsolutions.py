@@ -51,3 +51,11 @@ finish_hour = (start_time + my_run)
 finish_min = (finish_hour - int(finish_hour)) * 60
 finish_sec = (finish_min - int(finish_min)) * 60
 print(int(finish_hour), ':', int(finish_min), ':', int(finish_sec))
+
+# Exercise 3.3
+
+def right_justify(s):
+    leading = 70 - len(s)
+    return " " * leading + s
+
+print(right_justify("python"))
