@@ -36,3 +36,18 @@ vol = 4.0 / 3.0 * pi * r ** 3
 print(vol)
 
 #Q2
+cover_price = 24.95
+discount = (cover_price * (1 - 0.4))
+num_books = 60
+shipping = 3 + (0.75 * (num_books - 1))
+print((num_books * discount) + shipping)
+
+#Q3
+easy = (8 + 15 / 60) / 60
+tempo = (7 + 12 / 60) / 60
+my_run = (easy + (3 * tempo) + easy)
+start_time = (6 + 52 / 60)
+finish_hour = (start_time + my_run)
+finish_min = (finish_hour - int(finish_hour)) * 60
+finish_sec = (finish_min - int(finish_min)) * 60
+print(int(finish_hour), ':', int(finish_min), ':', int(finish_sec))
