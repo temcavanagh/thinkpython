@@ -2,7 +2,7 @@
 # Version 2.0.17
 # Solutions by T Cavanagh
 
-#2.2 Exercise
+# 2.2 Exercise
 width = 17
 height = 12.0
 delimiter = '.'
@@ -28,21 +28,21 @@ print(q5)
 print(type(q5))
 
 
-#2.3 Exercise
-#Q1
+# 2.3 Exercise
+# Q1
 pi = 3.1415926535897931
 r = 5.0
 vol = 4.0 / 3.0 * pi * r ** 3
 print(vol)
 
-#Q2
+# Q2
 cover_price = 24.95
 discount = (cover_price * (1 - 0.4))
 num_books = 60
 shipping = 3 + (0.75 * (num_books - 1))
 print((num_books * discount) + shipping)
 
-#Q3
+# Q3
 easy = (8 + 15 / 60) / 60
 tempo = (7 + 12 / 60) / 60
 my_run = (easy + (3 * tempo) + easy)
@@ -59,3 +59,20 @@ def right_justify(s):
     return " " * leading + s
 
 print(right_justify("python"))
+
+# Exercise 3.4
+
+def do_twice(f, val):
+    f(val)
+    f(val)
+
+def do_four(f, val):
+    do_twice(f, val)
+    do_twice(f, val)
+
+def print_twice(s):
+    print(s)
+    print(s)
+
+do_four(print_twice, "spam")
+
