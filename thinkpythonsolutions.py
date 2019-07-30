@@ -94,6 +94,22 @@ def grid(n):
 print(grid(2))
 print(grid(4))
 
+# Exercise 5.3
+
+def check_fermat(a, b, c, n):
+    if n > 2 and a ** n + b ** n == c ** n:
+        print("Holy smokes, Fermat was wrong!")
+    else:
+        print("No, that doesn't work.")
+
+def fermat_input():
+    a = int(input("Please enter a: "))
+    b = int(input("Please enter b: "))
+    c = int(input("Please enter c: "))
+    n = int(input("Please enter n: "))
+    check_fermat(a, b, c, n)
+
+fermat_input()
 
 
 
