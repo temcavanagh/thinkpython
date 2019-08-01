@@ -111,5 +111,24 @@ def fermat_input():
 
 fermat_input()
 
+#Exercise 5.4
 
+def is_triangle(a, b, c):
+    if a > b + c:
+        print("No")
+    elif b > a + c:
+        print("No")
+    elif c > a + b:
+        print("No")
+    else:
+        print("Yes")
+
+def prompt():
+    a = input("Enter length of side a: ")
+    b = input("Enter length of side b: ")
+    c = input("Enter length of side c: ")
+    
+    is_triangle(int(a), int(b), int(c))
+    
+prompt()   
 
