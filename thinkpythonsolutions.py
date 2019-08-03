@@ -132,3 +132,5 @@ def prompt():
     
 prompt()   
 
+# Exercise 5.6
+
