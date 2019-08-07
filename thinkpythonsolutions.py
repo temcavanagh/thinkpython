@@ -192,3 +192,28 @@ def ack(m, n):
 
 print(ack(3, 4))
 
+
+# Exercise 6.6 Palindrome
+
+def is_palindrome(word):
+    def first(word):
+        return word[0]
+
+    def last(word):
+        return word[-1]
+
+    def middle(word):
+        return word[1:-1]
+
+    if len(word) <= 1:
+        return True
+    else:
+        if first(word) == last(word):
+            return is_palindrome(middle(word))
+        else:
+            return False
+
+
+print(is_palindrome("noon"))
+print(is_palindrome("redivider"))
+print(is_palindrome("apples"))
