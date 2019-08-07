@@ -217,3 +217,5 @@ def is_palindrome(word):
 print(is_palindrome("noon"))
 print(is_palindrome("redivider"))
 print(is_palindrome("apples"))
+
+#### TEST ####
