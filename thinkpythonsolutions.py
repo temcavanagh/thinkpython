@@ -1,4 +1,4 @@
-# Think Python solutions to go here
+# Think Python solutions
 # Version 2.0.17
 # Solutions by T Cavanagh
 
